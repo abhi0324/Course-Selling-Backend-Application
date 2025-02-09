@@ -1,11 +1,17 @@
-## Create a course selling app
+# Course Selling Backend Application
 
- - Initialize a new Node.js project
- - Add Express, jsonwebtoken, mongoose to it as a dependency 
- - Create index.js
- - Add route skeleton for user login, signup, purchase a course, sees all courses, sees the purchased courses course
- - Add routes for admin login, admin signup, create a course, delete a course, add course content.
- - Define the schema for User, Admin, Course, Purchase
- - Add a database (mongodb), use dotenv to store the database connection string
- - Add middlewares for user and admin auth
- - Complete the routes for user login, signup, purchase a course, see course (Extra points - Use express routing to better structure your routes
+## 🚀 Overview
+The **Course Selling Backend Application** is a Node.js-based backend system designed to manage courses, users, and authentication. It provides essential CRUD operations and role-based access control (RBAC) to facilitate seamless course management.
+
+## 📌 Features
+- 🔐 **Authentication & Authorization** (JWT-based)
+- 🛠️ **Admin & User Roles** with restricted access
+- 📚 **Course Management** (Add, Update, Delete, Fetch Courses)
+- 🗄️ **MongoDB Database Integration**
+- ⚡ **RESTful API Design**
+
+## 🏗 Tech Stack
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (Mongoose ODM)
+- **Authentication:** JSON Web Token (JWT)
+- **Middleware:** Express Middleware for security & validation
